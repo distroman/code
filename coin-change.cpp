@@ -1,3 +1,7 @@
+/*
+ * https://www.hackerrank.com/challenges/coin-change
+ */
+
 #include <cmath>
 #include <cstdio>
 #include <cstring>
