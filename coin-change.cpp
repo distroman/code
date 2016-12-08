@@ -9,8 +9,7 @@
 #include <algorithm>
 using namespace std;
 
-long int C( int S[], int m, int n )
-{
+long int C( int S[], int m, int n ) {
     long int count[n+1];
     memset(count, 0, sizeof(count));
     count[0] = 1;
@@ -20,9 +19,8 @@ long int C( int S[], int m, int n )
     return count[n];
 }
 
-int main()
-{
-	int arr[250]; int n; int m;
+int main() {
+    int arr[250]; int n; int m;
     cin >> n >> m;
     for (int i = 0; i<m; i++) 
         cin>>arr[i];
